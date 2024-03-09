@@ -11,7 +11,7 @@ masked_accountnumber = 'X' * 6 + accountnumber[-4:]
 print(f"\tAccount number is {masked_accountnumber}")
 
 # Extra: I asked ChatGPT how to do that and it suggested what I wrote in line 16. This solution will always add the total digits of the number in Xs plus
-# the las 4 visible digits. I couldn't figure out how to make Xs represent the masked numbers minus the visible digits
+# the last 4 visible digits. I couldn't figure out how to make Xs represent the masked numbers minus the visible digits
 
 accountnumber = str(input("Please enter account number: "))
 list_size = len(accountnumber)
